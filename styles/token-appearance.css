@@ -1,0 +1,68 @@
+.tac-dialog .tac-layout {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.tac-dialog .tac-preview {
+  flex: 0 0 128px;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-border-light-tertiary, #7a7971);
+  border-radius: 6px;
+  background: repeating-conic-gradient(#8884 0% 25%, transparent 0% 50%) 50% / 16px 16px;
+  overflow: hidden;
+}
+
+.tac-dialog .tac-preview img {
+  max-width: 100%;
+  max-height: 100%;
+  border: none;
+  object-fit: contain;
+}
+
+.tac-dialog .tac-fields {
+  flex: 1;
+  min-width: 0;
+}
+
+.tac-dialog .tac-browse {
+  flex: 0 0 32px;
+}
+
+.tac-dialog .tac-range-value {
+  flex: 0 0 36px;
+  text-align: right;
+}
+
+.tac-dialog .tac-gallery-wrapper {
+  margin-top: 8px;
+}
+
+.tac-dialog .tac-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(56px, 1fr));
+  gap: 6px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.tac-dialog .tac-gallery img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tac-dialog .tac-gallery img:hover {
+  border-color: var(--color-border-highlight, #ff6400);
+}
+
+.tac-dialog .tac-gallery img.active {
+  border-color: var(--color-border-highlight-alt, #ff6400);
+  box-shadow: 0 0 6px var(--color-shadow-highlight, #ff6400);
+}

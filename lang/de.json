@@ -1,0 +1,24 @@
+{
+  "TAC": {
+    "HudButton": "Aussehen ändern",
+    "Title": "Aussehen: {name}",
+    "Image": "Bild",
+    "Browse": "Durchsuchen",
+    "Gallery": "Bilder im selben Ordner",
+    "GalleryEmpty": "Keine weiteren Bilder in diesem Ordner gefunden.",
+    "Tint": "Färbung",
+    "Alpha": "Deckkraft",
+    "Scale": "Bildskalierung",
+    "MirrorX": "Horizontal spiegeln",
+    "MirrorY": "Vertikal spiegeln",
+    "Width": "Breite (Felder)",
+    "Height": "Höhe (Felder)",
+    "UpdatePrototype": "Auch im Prototyp-Token des Akteurs speichern",
+    "Apply": "Übernehmen",
+    "Reset": "Auf Prototyp zurücksetzen",
+    "Cancel": "Abbrechen",
+    "NoImage": "Bitte gib ein Bild an.",
+    "NoPrototype": "Dieses Token hat keinen Akteur mit Prototyp-Token.",
+    "Updated": "Aussehen von {name} aktualisiert."
+  }
+}

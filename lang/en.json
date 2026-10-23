@@ -1,0 +1,24 @@
+{
+  "TAC": {
+    "HudButton": "Change Appearance",
+    "Title": "Appearance: {name}",
+    "Image": "Image",
+    "Browse": "Browse",
+    "Gallery": "Images in the same folder",
+    "GalleryEmpty": "No other images found in this folder.",
+    "Tint": "Tint",
+    "Alpha": "Opacity",
+    "Scale": "Image Scale",
+    "MirrorX": "Mirror horizontally",
+    "MirrorY": "Mirror vertically",
+    "Width": "Width (grid units)",
+    "Height": "Height (grid units)",
+    "UpdatePrototype": "Also save to the actor's prototype token",
+    "Apply": "Apply",
+    "Reset": "Reset to prototype",
+    "Cancel": "Cancel",
+    "NoImage": "Please provide an image.",
+    "NoPrototype": "This token has no actor with a prototype token.",
+    "Updated": "Updated appearance of {name}."
+  }
+}
